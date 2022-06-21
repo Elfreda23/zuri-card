@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(143, 209, 209);
+    
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    '1 1 1 2 2'
+    '1 1 1 2 2'
+    "3 3 4 4 4"
+    "3 3 4 4 4"
+    ;
+
+}
+main.div{
+    padding: 20px;   
+}
+.item1{
+    grid-area: 1;
+    background-color: orangered;
+}
+.item2{
+    grid-area:2 ;
+    background-color: rgb(189, 160, 15);
+}
+.item3{
+    grid-area: 3;
+    background-color: green;
+}
+.item4{
+    grid-area: 4;
+    background-color: blue;
+}
+.item5{
+    grid-area: 5;
+    background-color: blue;
+}
+
+}
